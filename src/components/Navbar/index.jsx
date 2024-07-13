@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css'
+import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
     const [scroll, setScroll] = useState(false)
@@ -21,11 +22,12 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div class={`navbar bg-base-100 px-5 fixed ${scroll ? 'bg-white' : 'bg-transparent'} transition-all duration-200`}>
-            <div class="navbar-start">
+        <div class={`navbar bg-base-100 px-5 fixed ${scroll ? 'bg-white shadow-lg' : 'bg-transparent'} transition-all duration-200`}>
+            <div class="navbar-start items-center">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg
+                        <FaBars className='text-accent' size={20} />
+                        {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-5 w-5"
                             fill="none"
@@ -36,7 +38,7 @@ const Navbar = () => {
                                 stroke-linejoin="round"
                                 stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+                        </svg> */}
                     </div>
                     <ul
                         tabindex="0"
@@ -52,7 +54,7 @@ const Navbar = () => {
                         <li><a>Login</a></li>
                     </ul>
                 </div>
-                <a class="text-2xl font-bold">BandungVoyage</a>
+                <a class="text-2xl font-bold mt-1">BandungVoyage</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-[1rem] gap-2 font-semibold">
