@@ -4,25 +4,25 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Footer = () => {
     return (
         <div>
-            <footer class="footer footer-center bg-accent bg-opacity-70 text-white p-10">
-                <nav class="grid grid-flow-col gap-4">
-                    <a class="link link-hover underline">Kebijakan Privasi</a>
-                    <a class="link link-hover underline">Syarat & Ketentuan</a>
-                    <a class="link link-hover underline">FAQ</a>
+            <footer className="footer footer-center bg-accent bg-opacity-70 text-white p-10">
+                <nav className="grid grid-flow-col gap-4">
+                    <a className="link link-hover underline">Kebijakan Privasi</a>
+                    <a className="link link-hover underline">Syarat & Ketentuan</a>
+                    <a className="link link-hover underline">FAQ</a>
                 </nav>
                 <nav className='flex items-center'>
                     <AiOutlineMail size={20} />
                     <p className='underline mt-1'>bandungvoyage@gmail.com</p>
                 </nav>
                 <nav>
-                    <div class="grid grid-flow-col gap-4">
+                    <div className="grid grid-flow-col gap-4">
                         <a>
                             <svg
                                 width={24}
                                 height={24}
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="fill-current"
+                                className="fill-current"
                             >
                                 <path d="M17.34 5.46a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2m4.6 2.42a7.6 7.6 0 0 0-.46-2.43 4.9 4.9 0 0 0-1.16-1.77 4.7 4.7 0 0 0-1.77-1.15 7.3 7.3 0 0 0-2.43-.47C15.06 2 14.72 2 12 2s-3.06 0-4.12.06a7.3 7.3 0 0 0-2.43.47 4.8 4.8 0 0 0-1.77 1.15 4.7 4.7 0 0 0-1.15 1.77 7.3 7.3 0 0 0-.47 2.43C2 8.94 2 9.28 2 12s0 3.06.06 4.12a7.3 7.3 0 0 0 .47 2.43 4.7 4.7 0 0 0 1.15 1.77 4.8 4.8 0 0 0 1.77 1.15 7.3 7.3 0 0 0 2.43.47C8.94 22 9.28 22 12 22s3.06 0 4.12-.06a7.3 7.3 0 0 0 2.43-.47 4.7 4.7 0 0 0 1.77-1.15 4.85 4.85 0 0 0 1.16-1.77 7.6 7.6 0 0 0 .46-2.43c0-1.06.06-1.4.06-4.12s0-3.06-.06-4.12M20.14 16a5.6 5.6 0 0 1-.34 1.86 3.06 3.06 0 0 1-.75 1.15 3.2 3.2 0 0 1-1.15.75 5.6 5.6 0 0 1-1.86.34c-1 .05-1.37.06-4 .06s-3 0-4-.06a5.7 5.7 0 0 1-1.94-.3 3.3 3.3 0 0 1-1.1-.75 3 3 0 0 1-.74-1.15 5.5 5.5 0 0 1-.4-1.9c0-1-.06-1.37-.06-4s0-3 .06-4a5.5 5.5 0 0 1 .35-1.9A3 3 0 0 1 5 5a3.1 3.1 0 0 1 1.1-.8A5.7 5.7 0 0 1 8 3.86c1 0 1.37-.06 4-.06s3 0 4 .06a5.6 5.6 0 0 1 1.86.34 3.06 3.06 0 0 1 1.19.8 3.1 3.1 0 0 1 .75 1.1 5.6 5.6 0 0 1 .34 1.9c.05 1 .06 1.37.06 4s-.01 3-.06 4M12 6.87A5.13 5.13 0 1 0 17.14 12 5.12 5.12 0 0 0 12 6.87m0 8.46A3.33 3.33 0 1 1 15.33 12 3.33 3.33 0 0 1 12 15.33" />
                             </svg>
@@ -33,7 +33,7 @@ const Footer = () => {
                                 width="24"
                                 height="24"
                                 viewBox="0 0 512 512"
-                                class="fill-current"
+                                className="fill-current"
                             >
                                 <path d="M412.19 118.66a109 109 0 0 1-9.45-5.5 133 133 0 0 1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14 23.9 350 16 350.13 16h-82.44v318.78c0 4.28 0 8.51-.18 12.69 0 .52-.05 1-.08 1.56 0 .23 0 .47-.05.71v.18a70 70 0 0 1-35.22 55.56 68.8 68.8 0 0 1-34.11 9c-38.41 0-69.54-31.32-69.54-70s31.13-70 69.54-70a68.9 68.9 0 0 1 21.41 3.39l.1-83.94a153.14 153.14 0 0 0-118 34.52 161.8 161.8 0 0 0-35.3 43.53c-3.48 6-16.61 30.11-18.2 69.24-1 22.21 5.67 45.22 8.85 54.73v.2c2 5.6 9.75 24.71 22.38 40.82A167.5 167.5 0 0 0 115 470.66v-.2l.2.2c39.91 27.12 84.16 25.34 84.16 25.34 7.66-.31 33.32 0 62.46-13.81 32.32-15.31 50.72-38.12 50.72-38.12a158.5 158.5 0 0 0 27.64-45.93c7.46-19.61 9.95-43.13 9.95-52.53V176.49c1 .6 14.32 9.41 14.32 9.41s19.19 12.3 49.13 20.31c21.48 5.7 50.42 6.9 50.42 6.9v-81.84c-10.14 1.1-30.73-2.1-51.81-12.61" />
                             </svg>
