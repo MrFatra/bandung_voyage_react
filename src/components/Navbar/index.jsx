@@ -22,7 +22,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div class={`navbar bg-base-100 px-5 fixed ${scroll ? 'bg-white shadow-lg' : 'bg-transparent'} transition-all duration-200`}>
+        <div class={`navbar bg-base-100 px-5 fixed ${scroll ? 'bg-white shadow-lg' : 'bg-transparent'} transition-all duration-200 z-10`}>
             <div class="navbar-start items-center">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
