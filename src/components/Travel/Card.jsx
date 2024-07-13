@@ -5,7 +5,7 @@ import { FaClock, FaArrowRight } from 'react-icons/fa6'
 const Card = () => {
     return (
         <div className="mt-5">
-            <div className="card bg-base-100 w-96 shadow-xl outline outline-1">
+            <div className="card bg-base-100 w-96 shadow-xl">
                 <figure className='relative'>
                     <img
                         src="https://images.unsplash.com/photo-1596390261476-d2492f3e9695?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
