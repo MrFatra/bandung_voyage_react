@@ -1,0 +1,14 @@
+.card {
+    position: static !important;
+}
+
+.line-clamp-3 {
+    text-overflow: ellipsis !important;
+    overflow: clip !important;
+}
+
+.badge {
+    color: #00582e !important;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
